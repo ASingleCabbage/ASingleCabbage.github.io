@@ -24,7 +24,7 @@
 
 function getLocFromName(address, prefDist, priceWeight, tripPois, points){
     $.ajax({
-        url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=AIzaSyDyifMNPY2-AG4ry0JCQgG3DwVmuRILpu4",
+        url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=AIzaSyDcGa50NWdkBEkwN9YqZMvn3GGbvL-Qku0",
         datatype: "json"
     }).done(function(data){
         var latlng = data.results[0].geometry.location.lat + ", " + data.results[0].geometry.location.lng; 
