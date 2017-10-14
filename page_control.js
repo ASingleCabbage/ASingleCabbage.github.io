@@ -14,6 +14,10 @@ $(document).ready(function() {
         
         start(person, genre);    
     });
+    
+    $(".title").click(function(){
+        location.reload(true);
+    });
 });
 
 function start(person, genre){
